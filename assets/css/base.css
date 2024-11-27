@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -60,4 +60,60 @@ html {
 	overflow-x: hidden;
 	min-width: 100vw;
 	width: 100vw;
+	/* background-color: var(--color-blue-1); */
+	position: relative;
+
+	--stripe1: var(--color-blue-1);
+	--stripe2: rgb(23, 12, 88);
+
+	background-image: radial-gradient(
+			rgba(255, 255, 255, 0.214),
+			rgba(0, 0, 0, 0.727)
+		),
+		conic-gradient(
+			var(--stripe1) 0%,
+			var(--stripe1) 5%,
+			var(--stripe2) 5%,
+			var(--stripe2) 10%,
+			var(--stripe1) 10%,
+			var(--stripe1) 15%,
+			var(--stripe2) 15%,
+			var(--stripe2) 20%,
+			var(--stripe1) 20%,
+			var(--stripe1) 25%,
+			var(--stripe2) 25%,
+			var(--stripe2) 30%,
+			var(--stripe1) 30%,
+			var(--stripe1) 35%,
+			var(--stripe2) 35%,
+			var(--stripe2) 40%,
+			var(--stripe1) 40%,
+			var(--stripe1) 45%,
+			var(--stripe2) 45%,
+			var(--stripe2) 50%,
+			var(--stripe1) 50%,
+			var(--stripe1) 55%,
+			var(--stripe2) 55%,
+			var(--stripe2) 60%,
+			var(--stripe1) 60%,
+			var(--stripe1) 65%,
+			var(--stripe2) 65%,
+			var(--stripe2) 70%,
+			var(--stripe1) 70%,
+			var(--stripe1) 75%,
+			var(--stripe2) 75%,
+			var(--stripe2) 80%,
+			var(--stripe1) 80%,
+			var(--stripe1) 85%,
+			var(--stripe2) 85%,
+			var(--stripe2) 90%,
+			var(--stripe1) 90%,
+			var(--stripe1) 95%,
+			var(--stripe2) 95%,
+			var(--stripe2) 100%
+		);
+	background-size: 100% calc(100% + 600px);
+	background-position: 50% -600px;
+	/* background-attachment: fixed; */
+	background-repeat: no-repeat;
 }

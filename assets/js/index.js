@@ -3,9 +3,8 @@
 // BG
 
 const mainBg = document.querySelector('.main__bg')
-const main = document.querySelector('.main')
 
-const mainHeight = main.offsetHeight
+const mainHeight = document.body.offsetHeight
 console.log(mainHeight)
 
 for (let i = 0; i < mainHeight; i += 500) {
