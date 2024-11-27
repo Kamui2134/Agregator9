@@ -8,10 +8,175 @@
 		<link rel="manifest" href="manifest.json" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<base target="_blank" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<header class="header"></header>
-		<main class="main"></main>
+		<header class="header">
+			<div class="header__container">
+				<a target="_parent" href="./index.html">
+					<img class="header__logo" src="./assets/images/logo.svg" alt="logo" />
+				</a>
+				<nav class="header__nav">
+					<a class="header__nav-link" href="./policy.html">Privacy Policy</a>
+					<a class="header__nav-link" href="./terms.html">Terms Of Use</a>
+					<a class="header__nav-link" href="./cookie.html">Cookie Policy</a>
+				</nav>
+				<div class="header__menu-btn">
+					<div class="header__menu-line header__menu-line--1"></div>
+					<div class="header__menu-line header__menu-line--2"></div>
+					<div class="header__menu-line header__menu-line--3"></div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__bg">
+				<!-- index.js -> //BG -->
+			</div>
+			<section class="best-games">
+				<div class="best-games__description">
+					<h1 class="best-games__title">Top Online Casino in the UK</h1>
+					<ul class="best-games__advantages">
+						<li class="best-games__advantage">
+							<img
+								class="best-games__advantage-img"
+								src="./assets/images/icons/secure.svg"
+								alt="icon"
+							/>
+							Secure & Licensed
+						</li>
+						<li class="best-games__advantage">
+							<img
+								class="best-games__advantage-img"
+								src="./assets/images/icons/card.svg"
+								alt="icon"
+							/>
+							Fastest Withdrawals
+						</li>
+						<li class="best-games__advantage">
+							<img
+								class="best-games__advantage-img"
+								src="./assets/images/icons/gift.svg"
+								alt="icon"
+							/>
+							New Offers & Bonuses
+						</li>
+					</ul>
+					<p class="best-games__text">
+						GG Casino offers a curated selection of top UK casino bonuses from
+						online casinos that are fully licensed and regulated by the United
+						Kingdom Gambling Commission (UKGC).
+					</p>
+					<p class="best-games__disclaimer">
+						The content is not intended for users under the age of 18.
+					</p>
+				</div>
+				<div class="best-games__games">
+					<div class="best-games__game">
+						<div class="best-games__best">Top-Rated Casino</div>
+						<img
+							class="best-games__game-logo"
+							src="./assets/images/fatpirate.png"
+							alt="fatpirate"
+						/>
+
+						<div class="game-rating">
+							<div class="game-rating__stars">
+								<img
+									class="game-rating__star"
+									src="./assets/images/icons/star.svg"
+									alt="star"
+								/>
+								<img
+									class="game-rating__star"
+									src="./assets/images/icons/star.svg"
+									alt="star"
+								/>
+								<img
+									class="game-rating__star"
+									src="./assets/images/icons/star.svg"
+									alt="star"
+								/>
+								<img
+									class="game-rating__star"
+									src="./assets/images/icons/star.svg"
+									alt="star"
+								/>
+								<img
+									class="game-rating__star"
+									src="./assets/images/icons/star.svg"
+									alt="star"
+								/>
+							</div>
+							<p class="game-rating__text">5.0/5</p>
+						</div>
+						<ul class="best-games__game-advantages">
+							<li class="best-games__game-advantage">
+								<img
+									class="best-games__game-advantage-img"
+									src="./assets/images/icons/checkmark.svg"
+									alt="has"
+								/>
+								Up To £25 Bonus + 25 Spins Unless Otherwise Stated
+							</li>
+							<li class="best-games__game-advantage">
+								<img
+									class="best-games__game-advantage-img"
+									src="./assets/images/icons/checkmark.svg"
+									alt="has"
+								/>
+								Up To £25 Bonus + 25 Spins Unless Otherwise Stated
+							</li>
+							<li class="best-games__game-advantage">
+								<img
+									class="best-games__game-advantage-img"
+									src="./assets/images/icons/checkmark.svg"
+									alt="has"
+								/>
+								Up To £25 Bonus + 25 Spins Unless Otherwise Stated
+							</li>
+							<li class="best-games__game-advantage">
+								<img
+									class="best-games__game-advantage-img"
+									src="./assets/images/icons/checkmark.svg"
+									alt="has"
+								/>
+								Up To £25 Bonus + 25 Spins Unless Otherwise Stated
+							</li>
+						</ul>
+						<a class="casino-link" href="">Visit Casino</a>
+					</div>
+				</div>
+			</section>
+			<section class="games">
+				<div class="games__description">
+					<h1 class="games__title">Other Top Casino UK</h1>
+				</div>
+				<ul class="games__games">
+					<li class="games__game">
+						<div class="games__game-logo-container">
+							<img
+								class="games__game-logo"
+								src="./assets/images/kinghills.svg"
+								alt="kinghills"
+							/>
+						</div>
+						<div class="games__game-column">
+							<p class="games__games-bonus-text">
+								kinghills
+							</p>
+							<h1 class="games__game-bonus-bonus">
+								$55 Stake Cash, 550,000 GC + 5% Rakeback
+							</h1>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</main>
 		<footer class="footer"></footer>
 		<script src="./assets/js/index.js"></script>
 		<script>
