@@ -66,3 +66,13 @@ for (let i = 0; i < questionsBtns.length; i++) {
 		questionToggle(i)
 	})
 }
+// MENU-BTN
+
+const menuBtn = document.querySelector('.header__menu-btn')
+const navBar = document.querySelector('.header__nav')
+const navLinks = document.querySelectorAll('.header__nav-link')
+
+menuBtn.addEventListener('click', function () {
+	this.classList.toggle('active')
+	navBar.classList.toggle('active')
+})
