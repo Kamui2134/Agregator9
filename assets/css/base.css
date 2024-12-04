@@ -60,7 +60,6 @@ html {
 	overflow-x: hidden;
 	min-width: 100vw;
 	width: 100vw;
-	/* background-color: var(--color-blue-1); */
 	position: relative;
 
 	--stripe1: var(--color-blue-1);
@@ -116,4 +115,25 @@ html {
 	background-position: 50% -1600px;
 	/* background-attachment: fixed; */
 	background-repeat: no-repeat;
+}
+@media (max-width: 960px) {
+	body,
+	html {
+		background-size: 100% calc(100% + 2000px);
+		background-position: 50% -2000px;
+	}
+}
+@media (max-width: 720px) {
+	body,
+	html {
+		background-size: 100% calc(100% + 3300px);
+		background-position: 50% -3300px;
+	}
+}
+@media (max-width: 540px) {
+	body,
+	html {
+		background-size: 100% calc(100% + 4000px);
+		background-position: 50% -4000px;
+	}
 }

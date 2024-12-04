@@ -76,3 +76,15 @@ menuBtn.addEventListener('click', function () {
 	this.classList.toggle('active')
 	navBar.classList.toggle('active')
 })
+
+// POLICY CODE
+
+document.addEventListener('DOMContentLoaded', function () {
+	if (
+		window.location.pathname.endsWith('/policy.html') ||
+		window.location.pathname.endsWith('/terms.html') ||
+		window.location.pathname.endsWith('/cookie.html')
+	) {
+		document.body.classList.add('policy-bg')
+	}
+})
